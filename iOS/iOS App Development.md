@@ -1,5 +1,22 @@
 #Mobile #Architecture #iOS
 
+- [[iOS Architecture Overview]]
+- App architecture patterns
+	- [[Clean Architecture]]
+	- [[Modularization]]
+	- [[Dependency Injection]]
+	- [[RIBs]]
 - UI architecture patterns
 	- [[MVC]]
-	- 
+	- [[MVP]]
+	- [[MVP-C]]
+	- [[MVVM]]
+	- [[VIPER]]
+	- [[VIP]]
+	- [[MVI (Redux)]]
+	- [[TCA]]
+	- [[MV]]
+- SwiftUI
+	- [[State Management]]
+	- [[SwiftUI Navigation]]
+	- [[View Composition]]
