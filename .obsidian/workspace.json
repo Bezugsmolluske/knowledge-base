@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Backend/Application architecture patterns/Modular Monolith.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Modular Monolith"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Backend/Application architecture patterns/Modular Monolith.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,27 +190,38 @@
   },
   "active": "7bb90f3bcae87d71",
   "lastOpenFiles": [
+    "Backend/Application architecture patterns/Microservices.md",
+    "Backend/Application architecture patterns/Layered Architecture.md",
+    "Backend/Application architecture patterns/Hexagonal Architecture.md",
+    "Backend/Use case patterns/CQRS.md",
+    "Backend/Spring Boot/Spring Data.md",
+    "Backend/Application architecture patterns/Modular Monolith.md",
+    "Backend/Use case patterns/Vertical Slice.md",
+    "Backend/Use case patterns/Domain Model.md",
+    "Backend/Use case patterns/Transaction Script.md",
+    "Backend/Use case patterns",
+    "Backend/Application architecture patterns",
+    "Backend/Spring Boot/Spring Dependency Injection.md",
+    "Backend/Spring Boot/Transactions.md",
+    "Backend/Backend Development.md",
+    "Backend/Spring Boot/Spring MVC.md",
+    "Backend/Spring Boot",
+    "Backend/Backend Architecture Overview.md",
+    "iOS/SwiftUI/State Management.md",
+    "Backend",
     "iOS/iOS Architecture Overview.md",
+    "iOS/iOS App Development.md",
+    "README.md",
     "iOS/SwiftUI/View Composition.md",
     "iOS/SwiftUI/SwiftUI Navigation.md",
-    "iOS/SwiftUI/State Management.md",
     "iOS/App architecture patterns/Clean Architecture.md",
     "iOS/SwiftUI",
     "iOS/App architecture patterns/RIBs.md",
     "iOS/App architecture patterns/Dependency Injection.md",
     "iOS/App architecture patterns/Modularization.md",
-    "iOS/iOS App Development.md",
     "iOS/App architecture patterns",
     "iOS/UI architecture patterns/MVP-C.md",
     "iOS/UI architecture patterns/MVP.md",
-    "iOS/UI architecture patterns/MVC.md",
-    "iOS/UI architecture patterns/MVI (Redux).md",
-    "iOS/UI architecture patterns/TCA.md",
-    "iOS/UI architecture patterns/VIP.md",
-    "iOS/UI architecture patterns/VIPER.md",
-    "iOS/UI architecture patterns/MVVM.md",
-    "iOS/UI architecture patterns/MV.md",
-    "README.md",
     "iOS/UI architecture patterns",
     "iOS"
   ]
