@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/iOS Architecture Overview.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "iOS Architecture Overview"
+              "title": "README"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS/iOS Architecture Overview.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,8 +190,8 @@
   },
   "active": "7bb90f3bcae87d71",
   "lastOpenFiles": [
-    "iOS/SwiftUI/View Composition.md",
     "iOS/iOS Architecture Overview.md",
+    "iOS/SwiftUI/View Composition.md",
     "iOS/SwiftUI/SwiftUI Navigation.md",
     "iOS/SwiftUI/State Management.md",
     "iOS/App architecture patterns/Clean Architecture.md",
@@ -210,7 +210,7 @@
     "iOS/UI architecture patterns/VIPER.md",
     "iOS/UI architecture patterns/MVVM.md",
     "iOS/UI architecture patterns/MV.md",
-    "Contents.md",
+    "README.md",
     "iOS/UI architecture patterns",
     "iOS"
   ]
