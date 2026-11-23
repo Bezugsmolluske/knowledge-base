@@ -1,12 +1,12 @@
-#Backend #Architecture #SpringBoot
+#Backend #Architecture
 
 - [[Backend Architecture Overview]]
-- Application architecture patterns
+- Application architecture patterns (stack-neutral)
 	- [[Layered Architecture]]
 	- [[Hexagonal Architecture]]
 	- [[Modular Monolith]]
 	- [[Microservices]]
-- Use case patterns
+- Use case patterns (stack-neutral)
 	- [[Transaction Script]]
 	- [[Domain Model]]
 	- [[CQRS]]

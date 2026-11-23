@@ -1,29 +1,40 @@
-#Architecture #UseCase #Backend #SpringBoot
+#Architecture #UseCase #Backend
 
-Separate the write model and the read model:
-- **Command**: a change, handled by the write model
-- **Query**: a read, handled by the read model
-- **Write model**: normalized, enforces the invariants. Often a [[Domain Model]]
-- **Read model**: shaped for the query, often a different table or store
+**C**ommand **Q**uery **R**esponsibility **S**egregation (Greg Young). Separate the code that changes data from the code that reads it:
+- **Command**: a change, handled by the write model. Returns nothing or just an id
+- **Query**: a read, handled by the read model. Changes nothing
+- **Write model**: shaped for the invariants, often a [[Domain Model]]
+- **Read model**: shaped for the screen or API response, e.g. DTO queries, a SQL view, or a separate store (search index, denormalized table)
 
-Worth it when reads and writes diverge. Eventual consistency is the cost. After a command, a query can still return the old view.
+Levels, from light to heavy:
+1. **Same database, separate code**: commands go through the domain, queries go straight to SQL into DTOs. Still fully consistent. Often all you need
+2. **Separate read store**: updated from events after the write commits. Reads can lag behind: eventual consistency
+3. **Event sourcing**: the write model is an append-only log of events, current state is rebuilt from it, read models are projections of that log. Full audit history, but event schemas are hard to change and the log is hard to query. Rarely worth it outside domains that need the history
+
+Worth it when reads and writes diverge: complex invariants on write, many differently shaped reads, or very different load.
 
 **Pros**:
-- reads and writes can be shaped and scaled apart
-- the write model stays on the invariants
+- reads skip the domain model and fetch exactly what they need
+- the write model stays focused on the invariants
+- reads and writes can be optimized and scaled separately
 
 **Cons**:
-- the read model lags the write
-- two models to keep in sync
-- extra machinery while one model still serves both
-
-Event sourcing is the optional extreme. The write model is a log of events. The read model is a projection of that log. The usual form is two models and an ordinary database.
+- two models to maintain
+- with a separate read store: the read model lags the write, and sync can break
+- extra machinery when one model still serves both
 
 ```mermaid
 graph TD
 Cmd[Command] --> W[Write model]
-W -.->|eventually| RM[Read model]
+W --> DB[(Write DB)]
+DB -.->|"same DB or events"| RM[Read model]
 Q[Query] --> RM
 ```
+
+## In Spring Boot
+- read side: Spring Data projections (interfaces or records), `JdbcClient` or jOOQ straight into DTOs. Avoids lazy loading and N+1 ([[Spring Data]])
+- write side: a domain model and repositories, `@Transactional` ([[Transactions]])
+- updating a separate read store: `@TransactionalEventListener` or Spring Modulith's `@ApplicationModuleListener`, or Kafka between services
+- event sourcing: Axon Framework
 
 See [[Backend Architecture Overview]].

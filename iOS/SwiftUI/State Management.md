@@ -6,6 +6,7 @@ The core SwiftUI skill: who **owns** a piece of state. The view is a function of
 - `@Observable` (iOS 17+): a class whose properties views observe automatically
 - `@Bindable`: creates bindings to properties of an `@Observable` object
 - `@Environment`: shared state or dependencies passed down the view tree
+- before iOS 17: `ObservableObject` with `@Published` properties, owned via `@StateObject`, passed via `@ObservedObject` or `@EnvironmentObject`. Views re-render on any `@Published` change, `@Observable` only tracks the properties a view actually reads
 
 Principle: **one owner per piece of state**, pass it down, don't duplicate it.
 
