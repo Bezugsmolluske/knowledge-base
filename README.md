@@ -1,3 +1,5 @@
 - [[iOS App Development]]
 - [[Backend Development]]
 - [[React Native Development]]
+- [[Compose Multiplatform Development]]
+- [[Software Testing]]
