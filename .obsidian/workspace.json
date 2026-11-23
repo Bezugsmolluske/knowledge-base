@@ -11,14 +11,10 @@
             "id": "7bb90f3bcae87d71",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend/Use case patterns/Vertical Slice.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Vertical Slice"
+              "title": "Neuer Tab"
             }
           }
         ]
@@ -99,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backend/Use case patterns/Vertical Slice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backend/Use case patterns/Vertical Slice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -134,7 +128,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
@@ -161,9 +155,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backend/Use case patterns/Vertical Slice.md",
                 "followCursor": true,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
@@ -190,39 +183,41 @@
   },
   "active": "7bb90f3bcae87d71",
   "lastOpenFiles": [
-    "Backend/Backend Architecture Overview.md",
-    "Backend/Backend Development.md",
-    "Backend/Use case patterns/Domain Model.md",
-    "Backend/Use case patterns/CQRS.md",
-    "Backend/Use case patterns/Transaction Script.md",
-    "Backend/Spring Boot/Transactions.md",
-    "Backend/Spring Boot/Spring MVC.md",
-    "Backend/Spring Boot/Spring Dependency Injection.md",
-    "Backend/Spring Boot/Spring Data.md",
-    "Backend/Application architecture patterns/Modular Monolith.md",
-    "Backend/Application architecture patterns/Microservices.md",
-    "Backend/Application architecture patterns/Layered Architecture.md",
-    "Backend/Application architecture patterns/Hexagonal Architecture.md",
-    "Backend/Use case patterns/Vertical Slice.md",
-    "Backend/Use case patterns",
-    "Backend/Application architecture patterns",
-    "Backend/Spring Boot",
-    "iOS/SwiftUI/State Management.md",
-    "Backend",
-    "iOS/iOS Architecture Overview.md",
-    "iOS/iOS App Development.md",
-    "README.md",
-    "iOS/SwiftUI/View Composition.md",
-    "iOS/SwiftUI/SwiftUI Navigation.md",
-    "iOS/App architecture patterns/Clean Architecture.md",
-    "iOS/SwiftUI",
-    "iOS/App architecture patterns/RIBs.md",
-    "iOS/App architecture patterns/Dependency Injection.md",
-    "iOS/App architecture patterns/Modularization.md",
-    "iOS/App architecture patterns",
-    "iOS/UI architecture patterns/MVP-C.md",
-    "iOS/UI architecture patterns/MVP.md",
-    "iOS/UI architecture patterns",
-    "iOS"
+    "React Native/React Native Architecture Overview.md",
+    "Mobile Apps/React Native/App architecture/Feature Folders.md",
+    "Mobile Apps/React Native/State/Redux Toolkit.md",
+    "Mobile Apps/React Native/Wiring/React Context and Providers.md",
+    "Mobile Apps/React Native/State/TanStack Query.md",
+    "Mobile Apps/React Native/State/Server State vs Client State.md",
+    "Mobile Apps/React Native/Platform/Native Modules.md",
+    "Mobile Apps/React Native/Platform/Expo.md",
+    "Mobile Apps/React Native/Navigation/React Navigation.md",
+    "Mobile Apps/React Native/Component patterns/Custom Hooks.md",
+    "Mobile Apps/React Native/Component patterns/Container and Presentational Components.md",
+    "Mobile Apps/React Native/Wiring",
+    "Mobile Apps/React Native/React Native Development.md",
+    "Mobile Apps/React Native/State",
+    "Mobile Apps/React Native/React Native Architecture Overview.md",
+    "Mobile Apps/React Native/App architecture",
+    "Mobile Apps/React Native/Platform",
+    "Mobile Apps/React Native/Navigation",
+    "Mobile Apps/React Native/Component patterns",
+    "Mobile Apps/React Native",
+    "Mobile Apps/iOS/UI architecture patterns/VIPER.md",
+    "Mobile Apps/iOS/UI architecture patterns/MVP-C.md",
+    "Mobile Apps/iOS/UI architecture patterns/VIP.md",
+    "Mobile Apps/iOS/UI architecture patterns/TCA.md",
+    "Mobile Apps/iOS/UI architecture patterns/MVVM.md",
+    "Mobile Apps/iOS/UI architecture patterns/MVP.md",
+    "Mobile Apps/iOS/UI architecture patterns/MVI (Redux).md",
+    "Mobile Apps/iOS/SwiftUI/SwiftUI Navigation.md",
+    "Mobile Apps/iOS/UI architecture patterns/MVC.md",
+    "Mobile Apps/iOS/UI architecture patterns/MV.md",
+    "Mobile Apps/iOS/App architecture patterns/RIBs.md",
+    "Mobile Apps/iOS/App architecture patterns/Modularization.md",
+    "Mobile Apps/iOS/App architecture patterns/Dependency Injection.md",
+    "Mobile Apps/iOS/UI architecture patterns",
+    "Mobile Apps/iOS/SwiftUI",
+    "Mobile Apps/iOS/App architecture patterns"
   ]
 }
