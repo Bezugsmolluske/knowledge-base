@@ -10,5 +10,12 @@
 	- [[Object Calisthenics]]
 - Practices
 	- [[Refactoring]]
+- Code quality
+	- [[Code Quality]]
+	- [[Size Metrics]]
+	- [[Complexity Metrics]]
+	- [[Coupling and Cohesion Metrics]]
+	- [[Test Coverage]]
+	- [[Static Analysis and Quality Gates]]
 - Processes
 	- [[Extreme Programming]]

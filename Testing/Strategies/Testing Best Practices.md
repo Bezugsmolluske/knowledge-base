@@ -39,7 +39,7 @@ Production code follows [[DRY]], tests follow **DAMP** (Descriptive And Meaningf
 - **Every bug gets a test** that reproduces it before the fix
 - **Beyoncé rule** (Google): "If you liked it, then you should have put a test on it." Anything that must not break needs a test, otherwise others may break it without knowing
 - test where the risk is: business rules, money, data loss, critical journeys ([[Test Pyramid]])
-- coverage is a signal, not a target. Mutation testing shows weak tests ([[Tests in CI]])
+- coverage is a signal, not a target. Mutation testing shows weak tests ([[Test Coverage]], [[Tests in CI]])
 - flaky tests are bugs: quarantine, then fix or delete
 - delete tests that no longer test anything meaningful
 - test code is production code: same review and quality standards

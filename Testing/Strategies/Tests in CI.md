@@ -19,7 +19,7 @@ Keeping it fast:
 - common causes: timing (`sleep`), shared test data, order dependence, real network, animations
 - don't add automatic retries as a permanent fix
 
-**Coverage** is a signal, not a target:
+**Coverage** is a signal, not a target (details in [[Test Coverage]], gates in [[Static Analysis and Quality Gates]]):
 - low coverage shows untested areas
 - high coverage doesn't prove good tests: tests without meaningful assertions also count
 - **mutation testing** measures test quality: the tool changes the code (flips a condition, removes a call) and checks that some test fails. Surviving mutants show weak tests

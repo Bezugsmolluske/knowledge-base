@@ -7,15 +7,18 @@ How the levels fit together. Each level answers a different question. All of the
 | Design principles | How should code be shaped? | [[KISS]], [[YAGNI]], [[DRY]], [[SOLID]] |
 | Code rules | How do I train good habits in small code? | [[Object Calisthenics]] |
 | Practices | How does code stay good over time? | [[Refactoring]], [[Test-Driven Development]], [[Testing Best Practices]], [[Tests in CI]] |
+| Code quality | How do we know the code is good? | [[Code Quality]]: [[Size Metrics]], [[Complexity Metrics]], [[Coupling and Cohesion Metrics]], [[Test Coverage]], [[Static Analysis and Quality Gates]] |
 | Process | How does a team work so that all of this happens? | [[Extreme Programming]] |
 
-They build on each other: a process like XP makes the practices routine (tests, refactoring, pairing). The practices keep the code close to the principles. Code rules like Object Calisthenics are an exercise to make the principles stick.
+They build on each other: a process like XP makes the practices routine (tests, refactoring, pairing). The practices keep the code close to the principles. Code rules like Object Calisthenics are an exercise to make the principles stick. Metrics show where the code drifts away from the principles, refactoring brings it back.
 
 ```mermaid
 graph TD
 XP[Process: Extreme Programming] -->|makes routine| PR[Practices: TDD, refactoring, CI]
 PR -->|keeps code close to| P[Principles: KISS, YAGNI, DRY, SOLID]
 OC[Code rules: Object Calisthenics] -->|trains| P
+M[Code quality metrics] -->|show drift from| P
+M -->|point to| PR
 ```
 
 ## Principles in tension
