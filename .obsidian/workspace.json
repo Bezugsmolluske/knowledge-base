@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Testing/Test types/Unit Tests.md",
+                "file": "Software Engineering/Code rules/Object Calisthenics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Unit Tests"
+              "title": "Object Calisthenics"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Testing/Test types/Unit Tests.md",
+                "file": "Software Engineering/Code rules/Object Calisthenics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Testing/Test types/Unit Tests.md",
+                "file": "Software Engineering/Code rules/Object Calisthenics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Testing/Test types/Unit Tests.md",
+                "file": "Software Engineering/Code rules/Object Calisthenics.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -190,6 +190,21 @@
   },
   "active": "7bb90f3bcae87d71",
   "lastOpenFiles": [
+    "Software Engineering/Processes/Extreme Programming.md",
+    "Software Engineering/Software Engineering.md",
+    "Software Engineering/Software Engineering Overview.md",
+    "Software Engineering/Design principles/SOLID.md",
+    "Software Engineering/Processes",
+    "Software Engineering/Practices/Refactoring.md",
+    "Software Engineering/Practices",
+    "Software Engineering/Code rules/Object Calisthenics.md",
+    "Software Engineering/Code rules",
+    "Testing/Test types/Unit Tests.md",
+    "Software Engineering/Design principles/DRY.md",
+    "Software Engineering/Design principles/YAGNI.md",
+    "Software Engineering/Design principles/KISS.md",
+    "Software Engineering/Design principles",
+    "Software Engineering",
     "Testing/Test types/UI Component Tests.md",
     "Testing/Test types/Snapshot Tests.md",
     "Testing/Test types/Non-functional Tests.md",
@@ -204,27 +219,12 @@
     "Testing/Software Testing.md",
     "Mobile Apps/Compose Multiplatform/Wiring/Koin.md",
     "Testing/Strategies",
-    "Testing/Test types/Unit Tests.md",
     "Testing/Test types",
     "Testing",
     "Mobile Apps/Compose Multiplatform/UI architecture/Multiplatform ViewModel.md",
     "Mobile Apps/iOS/UI architecture patterns/MVVM.md",
     "Mobile Apps/Compose Multiplatform/UI architecture/Compose State and Hoisting.md",
-    "Mobile Apps/Compose Multiplatform/Platform/iOS Interop.md",
-    "Mobile Apps/Compose Multiplatform/Navigation/Compose Navigation.md",
-    "Mobile Apps/Compose Multiplatform/Data/Multiplatform Data Layer.md",
-    "Mobile Apps/Compose Multiplatform/App architecture/KMP Project Structure.md",
-    "Mobile Apps/Compose Multiplatform/Compose Multiplatform Architecture Overview.md",
-    "Mobile Apps/Compose Multiplatform/Compose Multiplatform Development.md",
-    "Mobile Apps/Compose Multiplatform/App architecture/Expect and Actual.md",
     "Mobile Apps/Compose Multiplatform/Platform",
-    "Mobile Apps/Compose Multiplatform/Wiring",
-    "Mobile Apps/Compose Multiplatform/Data",
-    "Mobile Apps/Compose Multiplatform/Navigation",
-    "Mobile Apps/Compose Multiplatform/UI architecture",
-    "Mobile Apps/Compose Multiplatform/App architecture",
-    "Mobile Apps/Compose Multiplatform",
-    "React Native/React Native Architecture Overview.md",
-    "Mobile Apps/React Native/App architecture/Feature Folders.md"
+    "Mobile Apps/Compose Multiplatform/Wiring"
   ]
 }
