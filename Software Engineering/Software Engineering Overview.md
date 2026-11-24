@@ -6,7 +6,7 @@ How the levels fit together. Each level answers a different question. All of the
 |---|---|---|
 | Design principles | How should code be shaped? | [[KISS]], [[YAGNI]], [[DRY]], [[SOLID]] |
 | Code rules | How do I train good habits in small code? | [[Object Calisthenics]] |
-| Practices | How does code stay good over time? | [[Refactoring]], [[Test-Driven Development]], [[Tests in CI]] |
+| Practices | How does code stay good over time? | [[Refactoring]], [[Test-Driven Development]], [[Testing Best Practices]], [[Tests in CI]] |
 | Process | How does a team work so that all of this happens? | [[Extreme Programming]] |
 
 They build on each other: a process like XP makes the practices routine (tests, refactoring, pairing). The practices keep the code close to the principles. Code rules like Object Calisthenics are an exercise to make the principles stick.

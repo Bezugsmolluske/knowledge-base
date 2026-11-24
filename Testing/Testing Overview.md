@@ -6,6 +6,7 @@ How the parts of a testing strategy fit together. Each level answers a different
 |---|---|---|
 | Test types | What does a test cover? | [[Unit Tests]], [[Integration Tests]], [[UI Component Tests]], [[End-to-End Tests]] |
 | Specialized types | What else needs checking? | [[Contract Tests]], [[Snapshot Tests]], [[Non-functional Tests]] |
+| Practices | What makes a good test? | [[Testing Best Practices]] (FIRST, AAA, DAMP, ...) |
 | Strategy | How many of each? | [[Test Pyramid]], testing trophy, honeycomb |
 | Isolation | How are dependencies replaced? | [[Test Doubles]] |
 | Process | When are tests written? | [[Test-Driven Development]] |

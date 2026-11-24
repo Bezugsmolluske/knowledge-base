@@ -31,6 +31,8 @@ Beyond FIRST:
 - **behavior-focused**: asserts on outputs and state, not on which private methods were called
 - **readable**: the name says what behavior is expected
 
+More in [[Testing Best Practices]].
+
 What to unit test: business rules ([[Domain Model]]), ViewModels and reducers, mappers, validation, calculations. Not worth it: trivial getters, framework glue, code that only delegates.
 
 **Pros**:

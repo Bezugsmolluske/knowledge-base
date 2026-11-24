@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/Code rules/Object Calisthenics.md",
+                "file": "Software Engineering/Design principles/DRY.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Object Calisthenics"
+              "title": "DRY"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering/Code rules/Object Calisthenics.md",
+                "file": "Software Engineering/Design principles/DRY.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering/Code rules/Object Calisthenics.md",
+                "file": "Software Engineering/Design principles/DRY.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Engineering/Code rules/Object Calisthenics.md",
+                "file": "Software Engineering/Design principles/DRY.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
@@ -190,6 +190,9 @@
   },
   "active": "7bb90f3bcae87d71",
   "lastOpenFiles": [
+    "Testing/Strategies/Testing Best Practices.md",
+    "Testing/Strategies/Test Doubles.md",
+    "Software Engineering/Code rules/Object Calisthenics.md",
     "Software Engineering/Processes/Extreme Programming.md",
     "Software Engineering/Software Engineering.md",
     "Software Engineering/Software Engineering Overview.md",
@@ -197,7 +200,6 @@
     "Software Engineering/Processes",
     "Software Engineering/Practices/Refactoring.md",
     "Software Engineering/Practices",
-    "Software Engineering/Code rules/Object Calisthenics.md",
     "Software Engineering/Code rules",
     "Testing/Test types/Unit Tests.md",
     "Software Engineering/Design principles/DRY.md",
@@ -214,7 +216,6 @@
     "Testing/Strategies/Tests in CI.md",
     "Testing/Strategies/Test-Driven Development.md",
     "Testing/Strategies/Test Pyramid.md",
-    "Testing/Strategies/Test Doubles.md",
     "Testing/Testing Overview.md",
     "Testing/Software Testing.md",
     "Mobile Apps/Compose Multiplatform/Wiring/Koin.md",
@@ -223,7 +224,6 @@
     "Testing",
     "Mobile Apps/Compose Multiplatform/UI architecture/Multiplatform ViewModel.md",
     "Mobile Apps/iOS/UI architecture patterns/MVVM.md",
-    "Mobile Apps/Compose Multiplatform/UI architecture/Compose State and Hoisting.md",
     "Mobile Apps/Compose Multiplatform/Platform",
     "Mobile Apps/Compose Multiplatform/Wiring"
   ]

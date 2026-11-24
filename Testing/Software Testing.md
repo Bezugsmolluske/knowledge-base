@@ -10,6 +10,7 @@
 	- [[Snapshot Tests]]
 	- [[Non-functional Tests]]
 - Strategies
+	- [[Testing Best Practices]]
 	- [[Test Pyramid]]
 	- [[Test Doubles]]
 	- [[Test-Driven Development]]
